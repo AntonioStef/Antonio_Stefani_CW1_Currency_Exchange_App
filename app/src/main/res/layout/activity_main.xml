@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView android:id="@+id/salutation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/currency_exchange_app"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView android:id="@+id/dateDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/last_updated_awaiting_data"
+            android:layout_marginBottom="16dp"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_currencies_1_gbp"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+
+        <TextView android:id="@+id/usdRate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="@string/usd2"/>
+        <TextView android:id="@+id/eurRate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="@string/eur"/>
+        <TextView android:id="@+id/jpyRate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="@string/jpy" android:layout_marginBottom="16dp"/>
+
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_by_currency_code_e_g_usd_eur_or_country"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+        <EditText
+            android:id="@+id/searchText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_search_term_here"
+            android:inputType="textCapCharacters"
+            android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_strength_key_vs_gbp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weak_1_0"
+            android:textSize="12sp"
+            android:background="#FFCCBC"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moderate_1_5"
+            android:textSize="12sp"
+            android:background="#C8E6C9"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strong_5_10"
+            android:textSize="12sp"
+            android:background="#BBDEFB"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/very_strong_10"
+            android:textSize="12sp"
+            android:background="#EDE7F6"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/full_exchange_rate_list"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Stefani_Antonio_S2216470</string>
+    <string name="welcome_to_mobile_platform_development">Welcome to Mobile Platform Development</string>
+    <string name="press_to_get_data">Press to get data</string>
+    <string name="contains_fx_currency_exchange_data">Contains Fx Currency Exchange data</string>
+    <string name="raw_data_is_displayed_here">Raw Data is Displayed here</string>
+    <string name="last_updated_awaiting_data">Last Updated: Awaiting Data</string>
+    <string name="main_currencies_1_gbp">Main Currencies (1 GBP = )</string>
+    <string name="search_by_currency_code_e_g_usd_eur_or_country">Search by Currency Code (e.g. USD, EUR) or Country</string>
+    <string name="full_exchange_rate_list">Full Exchange Rate List (1 GBP = )</string>
+    <string name="_1_british_pound_sterling_1_250_united_states_dollar">United States Dollar</string>
+    <string name="usd">USD</string>
+    <string name="currency_exchange_app">Currency Exchange App</string>
+    <string name="jpy">JPY: --</string>
+    <string name="eur">EUR: --</string>
+    <string name="usd2">USD: --</string>
+    <string name="very_strong_10"><![CDATA[Very Strong (>= 10)]]></string>
+    <string name="strong_5_10">Strong (5-10)</string>
+    <string name="moderate_1_5">Moderate (1-5)</string>
+    <string name="weak_1_0"><![CDATA[Weak (< 1.0)]]></string>
+    <string name="rate_strength_key_vs_gbp">Rate Strength Key (vs. GBP):</string>
+    <string name="enter_search_term_here">Enter Search Term Here</string>
+    <string name="convert_gbp_to_euros">Convert GBP to Euros</string>
+    <string name="_1_gbp_1_15_eur">1 GBP = 1.15 EUR</string>
+    <string name="amount_in_gbp">Amount in GBP:</string>
+    <string name="enter_amount_to_convert">Enter amount to convert</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="reverse_conversion_target_gbp">REVERSE CONVERSION (Target → GBP)</string>
+    <string name="result">Result:</string>
+    <string name="_0_00">0.00</string>
+    <string name="flag_image">flag image</string>
+</resources>
